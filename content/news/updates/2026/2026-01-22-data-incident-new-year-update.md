@@ -15,13 +15,10 @@ Around 1PB of MODIS data is being restored from source. This has only just start
 
 We already keep the majority of our Sentinel data on tape only. We will be selectively restoring data as needed.
 
-In December, {{< link "../2025/2025-12-19-data-incident-christmas-update.md" >}} we also successfully restored over 790TB of CMIP6 data in 27 hours using the online data transfer service Globus. {{< /link >}} That’s a rate of over 8GB per second! There are still some issues with some of the CMIP data but it is largely restored.
-
 More than 90% of the data are back online, excluding MODIS and Sentinel. There are still issues to be resolved but we are working through these systematically.
 
 We are aware that there has been an issue with access permissions on some of the recovered files, and we are currently working to resolve this. If you are having issues with accessing any of the recovered files, please email us at support@ceda.ac.uk
 
-{{< link "../2025/2025-11-28-incident-data-list.md" >}} **A reminder that you can find the list of files affected here.** {{< /link >}}
 
 Our plan going forward is to continue to recover the files as quickly as we are able, focusing on the higher-priority datasets that will be beneficial to the largest number of users upon recovery.
 
