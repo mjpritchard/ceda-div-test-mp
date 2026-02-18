@@ -4,7 +4,7 @@ enableGitInfo = false
 
 # additional settings
 #baseURL = "https://www.ceda.ac.uk"
-canonifyURLs = false
+canonifyURLs = true # need this where deploying into subdirectory?
 enableEmoji = true
 enableRobotsTXT = true
 enableInlineShortcodes = true
