@@ -2,7 +2,7 @@
 
 backend:
   name: github
-  repo: mjpritchard/hinode-from-template-03
+  repo: mjpritchard/ceda-div-test-mp
 
 media_folder: /assets/img
 public_folder: /img
