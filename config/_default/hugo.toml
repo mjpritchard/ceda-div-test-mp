@@ -64,18 +64,18 @@ buildFuture = true
     notAlternative = true
     permalinkable = true
     root = true
-  [outputFormats.netlify]
-    mediaType = "application/toml"
-    baseName = "netlify"
-    isPlainText = true
-    notAlternative = true
-    permalinkable = true
-    root = true
-  [outputFormats.REDIR]
-    mediaType = "text/netlify"
-    baseName = "_redirects"
-    isPlainText = true
-    notAlternative = true
+  #[outputFormats.netlify]
+  #  mediaType = "application/toml"
+  #  baseName = "netlify"
+  #  isPlainText = true
+  #  notAlternative = true
+  #  permalinkable = true
+  #  root = true
+  #[outputFormats.REDIR]
+  #  mediaType = "text/netlify"
+  #  baseName = "_redirects"
+  #  isPlainText = true
+  #  notAlternative = true
   [outputFormats.XML]
     isPlainText = false
     mediaType = "application/xml"
@@ -85,11 +85,11 @@ buildFuture = true
     name = "xml"
 
 
-[mediaTypes."text/netlify"]
-  delimiter = ""
+#[mediaTypes."text/netlify"]
+#  delimiter = ""
 
 [outputs]
-  home = ["HTML", "RSS", "REDIR", "netlify", "server"]
+  home = ["HTML", "RSS", "server"] #  "REDIR", "netlify",
 
 [minify] # see https://discourse.gohugo.io/t/minify-config-tutorials/28179/5
   disableHTML = false
@@ -110,7 +110,7 @@ buildFuture = true
   [segments.headers]
     [[segments.headers.includes]]
        kind = '{home}'
-       output = '{netlify,server}'
+       output = '{server}' # netlify,
 
 [module]
   #[[module.imports]]
