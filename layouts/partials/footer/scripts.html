@@ -228,8 +228,25 @@ var config = {
   statement : {
     url: '/ceda-div-test-mp/privacy-and-cookies/',
     updated : '05/12/2024' // need DD/MM/YYYY format (inc trailing zeros)
-  }
-};
+  },
+
+  necessaryCookies: ['civic_*'],
+
+  optionalCookies: [
+    {
+        name: 'analytics',
+        label: 'Google Analytics',
+        description: 'Analytical cookies help us to improve our website by collecting and reporting information on its usage.',
+        cookies: ['_ga', '_ga*', '_gid', '_gat', '__utma', '__utmt', '__utmb', '__utmc', '__utmz', '__utmv'],
+        onAccept: function(){
+            gtag('consent', 'update', {'analytics_storage': 'granted'});
+        },
+        onRevoke: function(){
+            gtag('consent', 'update', {'analytics_storage': 'denied'});
+        }
+    }
+  ]
+}
 
 CookieControl.load( config );
 </script>
