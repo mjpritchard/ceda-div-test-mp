@@ -8,6 +8,6 @@ here's a basic markdown [link](#)
 
 ## Title
 
-{{< highlight LANG OPTIONS >}}
+{{% highlight %}}
 HIGHLIGHTED_TEXT
-{{< /highlight >}}
+{{% /highlight %}}
