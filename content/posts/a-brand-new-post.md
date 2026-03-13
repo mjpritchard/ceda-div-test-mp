@@ -8,6 +8,6 @@ here's a basic markdown [link](#)
 
 ## Title
 
-{{% highlight %}}
-HIGHLIGHTED_TEXT
-{{% /highlight %}}
+{{< alert color="danger" >}}
+    A danger alert!
+{{< /alert >}}
