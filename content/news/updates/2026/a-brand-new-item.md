@@ -8,3 +8,5 @@ tags:
 ---
 
 This is a test news item.
+
+And another line.
