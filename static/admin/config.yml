@@ -17,3 +17,21 @@ collections:
     fields:
       - { label: Title, name: title, widget: string }
       - { label: Body, name: body, widget: richtext }
+
+  - name: news
+    label: News
+    folder: /content/news/updates/2026
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Date, name: date, widget: datetime }
+      - { label: Thumbnail, name: thumbnail, widget: image }
+      - { label: Icon, name: icon, widget: string }
+      - { label: Body, name: body, widget: richtext }
+      - name: tags
+        label: Tags
+        widget: select
+        multiple: true
+        options:
+          - { label: "ceda", value: "ceda" }
+          - { label: "jasmin", value: "jasmin" }
+          - { label: "data incident", value : "data-incident-nov25" }
