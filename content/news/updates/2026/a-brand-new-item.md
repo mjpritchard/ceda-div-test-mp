@@ -1,6 +1,6 @@
 ---
 title: a brand new item
-date: 2026-08-26 14:23
+date: 2026-08-26 14:23:00
 thumbnail: ''
 icon: fas circle-info text-info
 tags:
