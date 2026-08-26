@@ -1,11 +1,14 @@
 # yaml-language-server: $schema=https://unpkg.com/@sveltia/cms/schema/sveltia-cms.json
+site_url: https://mjpritchard.github.io/ceda-div-test-mp
 
 backend:
   name: github
   repo: mjpritchard/ceda-div-test-mp
+  auth_methods: [token]
 
 media_folder: /assets/img
 public_folder: /img
+publish_mode: editorial_workflow
 
 collections:
   - name: posts
