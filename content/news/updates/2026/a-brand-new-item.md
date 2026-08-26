@@ -2,7 +2,7 @@
 title: a brand new item
 date: 2026-08-26 14:23
 thumbnail: ''
-icon: fas cirlce-info text-info
+icon: fas circle-info text-info
 tags:
   - jasmin
 ---
