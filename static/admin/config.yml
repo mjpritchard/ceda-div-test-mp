@@ -15,7 +15,7 @@ collections:
   - name: news
     label: news
     folder: /content/news/updates/2026
-    slug: "{{date | date('YYYY-MM-DD')}}-{{fields.slug}}"
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     fields:
       - { label: title, name: title, widget: string }
       - { label: date, name: date, widget: datetime, format: YYYY-MM-DD HH:mm:ss}
