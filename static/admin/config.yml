@@ -17,7 +17,7 @@ collections:
     folder: /content/news/updates/2026
     fields:
       - { label: Title, name: title, widget: string }
-      - { label: Date, name: date, widget: datetime }
+      - { label: Date, name: date, widget: datetime, format: YYYY-MM-DD HH:mm:ss}
       - { label: Thumbnail, name: thumbnail, widget: image, required: false }
       - { label: Icon, name: icon, widget: string, required: false  }
       - { label: Body, name: body, widget: richtext }
