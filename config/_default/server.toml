@@ -7,7 +7,7 @@
     Access-Control-Allow-Origin = '*'
     Content-Security-Policy = """
         base-uri 'self'; \
-        connect-src 'self' *.google-analytics.com *.analytics.google.com *.googletagmanager.com blob: data: https://unpkg.com; \
+        connect-src 'self' *.google-analytics.com *.analytics.google.com *.googletagmanager.com mjpritchard.github.io blob: data: https://unpkg.com; \
         default-src 'none'; \
         font-src 'self' fonts.gstatic.com; \
         form-action 'self'; \
@@ -16,7 +16,7 @@
         manifest-src 'self'; \
         media-src 'self' blob:; \
         object-src 'none'; \
-        script-src 'self' *.google-analytics.com *.googletagmanager.com https://unpkg.com; \
+        script-src 'self' 'unsafe-inline' *.google-analytics.com *.googletagmanager.com https://unpkg.com; \
         style-src 'self' 'unsafe-inline' www.youtube.com https://fonts.googleapis.com; \
         """
     Permissions-Policy = 'geolocation=(), midi=(), sync-xhr=(), microphone=(), camera=(), magnetometer=(), gyroscope=(), fullscreen=(), payment=() '
